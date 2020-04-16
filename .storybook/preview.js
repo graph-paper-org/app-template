@@ -1,1 +1,1 @@
-import './story.css';
+import "./story.css";
