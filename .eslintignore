@@ -1,2 +1,4 @@
 # Run .eslintrc.js itself through ESLint
 !.eslintrc.js
+
+public/build/bundle.js
