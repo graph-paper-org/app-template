@@ -1,10 +1,6 @@
 {
-  "name": "hamilton-svelte-template",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "Hamilton Ulmer",
-  "license": "MPL-2.0",
+  "name": "graph-paper-app",
+  "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
