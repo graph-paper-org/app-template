@@ -1,0 +1,2 @@
+# Run .eslintrc.js itself through ESLint
+!.eslintrc.js

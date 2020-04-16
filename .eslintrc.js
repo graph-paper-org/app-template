@@ -27,5 +27,13 @@ module.exports = {
           "prefer-const": "off",
         },
       },
+      {
+        files: ["**/*.js"],
+        extends: ["prettier"],
+        plugins: ["prettier"],
+        rules: {
+          "prettier/prettier": "error",
+        },
+      },
     ],
   };
