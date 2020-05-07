@@ -10,7 +10,7 @@ jobs:
       - checkout
       - node/install-packages
       - run: npm install
-      - run: npm run lint
+      - run: npm test
 workflows:
   build-and-test:
     jobs:
