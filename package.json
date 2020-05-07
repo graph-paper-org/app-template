@@ -6,7 +6,7 @@
     "build-storybook": "build-storybook -s ./public -c .storybook",
     "dev": "rollup -c -w",
     "format": "prettier --plugin-search-dir=. --write .",
-    "format:check": "prettier --check .",
+    "format:check": "prettier --plugin-search-dir=. --check .",
     "lint": "eslint --ext .js,.svelte .",
     "start": "sirv public",
     "storybook": "start-storybook -s ./public -p 6006",
