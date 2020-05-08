@@ -1,15 +1,15 @@
 ## Development
 
-Run `npm install` to install all dependencies.
+First, run `npm install` to install all dependencies.
 
-Run `npm run dev` to run this project in development mode. Run
+Then, run `npm run dev` to run this project in development mode. Run
 `npm run storybook` to run Storybook, which demonstrates how components can be
 used.
 
 ### Code quality
 
 To automatically benefit from the code quality tools that are included with this
-project, install editor plugins for [EditorConfig](https://editorconfig.org/),
+project, use an editor (such as [Visual Studio Code](https://code.visualstudio.com/)) with plugins for [EditorConfig](https://editorconfig.org/),
 [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), and
 [Svelte](https://svelte.dev/).
 
@@ -26,8 +26,6 @@ case.
 
 ## Deployment
 
-Run `npm install` to install all dependencies.
+As for development, run `npm install` to install all dependencies. 
 
-Run `npm run build` to build this project for production deployment. After it's
-built, host the _public_ directory on a static server or use `npm start` to
-serve it with Node.
+Then, run `npm run build` to build this project for production deployment. After it's built, host the _public_ directory on a static server or use `npm start` to serve it with Node.
