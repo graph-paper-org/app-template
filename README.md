@@ -5,8 +5,8 @@ project based on this template:
 npx degit graph-paper-org/app-template graph-paper-app
 ```
 
-After the project is created, add a LICENSE file with the license of your
-choice.
+After the project is created, consider adding a LICENSE file with the license of
+your choice.
 
 ## Developer documentation
 
