@@ -1,4 +1,5 @@
-# Run .eslintrc.js itself through ESLint
+# Inverse matches (i.e., DO NOT ignore these)
 !.eslintrc.js
+!.prettierrc.js
 
 public/build/bundle.js

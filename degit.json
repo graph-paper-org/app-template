@@ -1,6 +1,6 @@
 [
   {
     "action": "remove",
-    "files": ["README.md"]
+    "files": ["LICENSE", "README.md"]
   }
 ]
