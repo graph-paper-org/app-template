@@ -19,6 +19,14 @@ module.exports = {
   },
   overrides: [
     {
+      files: ["**/*.js"],
+      extends: ["prettier"],
+      plugins: ["prettier"],
+      rules: {
+        "prettier/prettier": "error",
+      },
+    },
+    {
       files: ["**/*.svelte"],
       processor: "svelte3/svelte3",
 
@@ -47,14 +55,6 @@ module.exports = {
         //
         // https://github.com/sveltejs/eslint-plugin-svelte3/issues/41#issuecomment-572503966
         "no-multiple-empty-lines": ["error", { max: 2, maxBOF: 2, maxEOF: 0 }],
-      },
-    },
-    {
-      files: ["**/*.js"],
-      extends: ["prettier"],
-      plugins: ["prettier"],
-      rules: {
-        "prettier/prettier": "error",
       },
     },
   ],
