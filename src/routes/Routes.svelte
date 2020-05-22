@@ -16,7 +16,7 @@
   }
 
   page("/", setComponent(Index));
-  page("/#explore", setComponent(Explore));
+  page("/explore", setComponent(Explore));
   page({ hashbang: true });
 </script>
 
