@@ -2,8 +2,8 @@
   import page from "page";
 
   // Pages
-  import Index from "./index.svelte";
-  import Explore from "./explore.svelte";
+  import Index from "./Index.svelte";
+  import Explore from "./Explore.svelte";
 
   let component;
   let params;
