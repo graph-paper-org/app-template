@@ -1,1 +1,1 @@
-<h2>root page</h2>
+<h2>Home</h2>

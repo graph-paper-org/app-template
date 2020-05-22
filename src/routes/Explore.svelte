@@ -1,1 +1,1 @@
-<h2>explore page</h2>
+<h2>Explore</h2>

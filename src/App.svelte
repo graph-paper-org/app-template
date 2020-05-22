@@ -3,8 +3,8 @@
 </script>
 
 <nav>
-  <a href="/">home</a>
-  <a href="/explore">explore</a>
+  <a href="/">Home</a>
+  <a href="/explore">Explore</a>
 </nav>
 
 <Routes />
