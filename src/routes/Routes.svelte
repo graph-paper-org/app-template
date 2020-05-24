@@ -42,7 +42,7 @@
       Template
     </a>
   </h1>
-  <nav style="--pad: var(--space-2x);">
+  <nav>
     <Stack space={3} alignItems="stretch" alignContent="stretch">
       <Stack space={1}>
         <h3>Views</h3>
@@ -55,23 +55,19 @@
           Compare
         </Button>
       </Stack>
-      <div style="align-self: stretch; height: 100%;">
-        <Stack space={1}>
-          <svelte:component this={sidebarComponent} bind:params />
-        </Stack>
-      </div>
-      <div style="align-self: end;">
-        <Stack space={1}>
-          <Button level="low" dark href="/#">
-            <LineChart size={14} />
-            Feedback
-          </Button>
-          <Button level="low" dark href="/#">
-            <Documentation size={14} />
-            Documentation
-          </Button>
-        </Stack>
-      </div>
+      <Stack space={1}>
+        <svelte:component this={sidebarComponent} bind:params />
+      </Stack>
+      <Stack space={1}>
+        <Button level="low" dark href="/#">
+          <LineChart size={14} />
+          Feedback
+        </Button>
+        <Button level="low" dark href="/#">
+          <Documentation size={14} />
+          Documentation
+        </Button>
+      </Stack>
     </Stack>
   </nav>
 </header>

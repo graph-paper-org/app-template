@@ -59,9 +59,14 @@ header h1 a {
 }
 
 nav {
-  --pad: var(--space-2x);
   display: grid;
-  padding: var(--pad);
+  padding: var(--space-2x);
+  align-items: stretch;
+  align-content: stretch;
+}
+
+nav > .gp-stack :last-child {
+  align-self: end;
 }
 
 nav h3 {
