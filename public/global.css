@@ -1,3 +1,24 @@
+:root {
+  --layout-columns: var(--space-32x) auto;
+  --layout-rows: var(--space-8x) auto;
+  --hpad: var(--space-2x);
+  --vpad: var(--space-1x);
+  --background-color: hsl(240, 25%, 9%);
+}
+
+/* a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+} */
+
 html,
 body {
   position: relative;
@@ -11,19 +32,57 @@ body {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: var(--layout-columns);
+  align-items: stretch;
+  align-content: stretch;
 }
 
-a {
-  color: rgb(0, 100, 200);
+header {
+  display: grid;
+  grid-template-rows: var(--layout-rows);
+  background-color: var(--background-color);
+  color: white;
+}
+
+header h1 a {
+  color: white;
   text-decoration: none;
+  padding: var(--vpad) var(--hpad);
+  font-size: var(--text-06);
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  grid-column-gap: var(--space-1x);
+  font-weight: 400;
 }
 
-a:hover {
-  text-decoration: underline;
+nav {
+  --pad: var(--space-2x);
+  display: grid;
+  padding: var(--pad);
 }
 
-a:visited {
-  color: rgb(0, 80, 160);
+nav h3 {
+  font-weight: normal;
+  font-size: var(--text-02);
+  text-transform: uppercase;
+  padding-bottom: var(--space-2x);
+}
+
+main {
+  display: grid;
+  grid-template-rows: var(--layout-rows);
+}
+
+main h2 {
+  padding: var(--vpad) var(--hpad);
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  grid-column-gap: var(--space-1x);
 }
 
 label {
