@@ -2,7 +2,7 @@ This is a template for new graph-paper apps. Run the following to create a new
 project based on this template:
 
 ```
-npx degit graph-paper-org/app-template graph-paper-app
+npx degit graph-paper-org/app-template#main graph-paper-app
 ```
 
 After the project is created, consider adding a LICENSE file with the license of
