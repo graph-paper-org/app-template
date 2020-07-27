@@ -14,7 +14,7 @@
     "test:jest": "jest tests --no-cache"
   },
   "devDependencies": {
-    "@babel/core": "7.10.4",
+    "@babel/core": "7.10.5",
     "@babel/plugin-transform-runtime": "7.10.5",
     "@babel/preset-env": "7.10.4",
     "@rollup/plugin-commonjs": "13.0.0",
