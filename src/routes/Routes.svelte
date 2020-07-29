@@ -3,7 +3,7 @@
 
   // Pages
   import Index from "./Index.svelte";
-  import Explore from "./Explore.svelte";
+  import About from "./About.svelte";
 
   let component;
   let params;
@@ -16,7 +16,7 @@
   }
 
   page("/", setComponent(Index));
-  page("/explore", setComponent(Explore));
+  page("/about", setComponent(About));
   page({ hashbang: true });
 </script>
 

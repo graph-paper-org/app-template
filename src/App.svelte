@@ -4,7 +4,7 @@
 
 <nav>
   <a href="/">Home</a>
-  <a href="/explore">Explore</a>
+  <a href="/about">About</a>
 </nav>
 
 <Routes />
