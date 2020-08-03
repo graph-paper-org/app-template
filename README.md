@@ -1,5 +1,6 @@
-This is a template for new graph-paper apps. Svelte and graph-paper are already
-configured, along with Storybook, Jest, ESLint, Prettier, CircleCI, and more.
+A template for new [graph-paper](https://github.com/graph-paper-org/graph-paper)
+apps. Svelte and graph-paper are already configured, along with Storybook, Jest,
+ESLint, Prettier, CircleCI, and more.
 
 Run the following to create a new project based on this template:
 
