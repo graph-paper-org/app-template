@@ -9,18 +9,22 @@ import { spawn } from "child_process";
 const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
-  let started = false;
+  let server;
+
+  function toExit() {
+    if (server) server.kill(0);
+  }
 
   return {
     writeBundle() {
-      if (!started) {
-        started = true;
+      if (server) return;
+      server = spawn("npm", ["run", "start", "--", "--dev"], {
+        stdio: ["ignore", "inherit", "inherit"],
+        shell: true,
+      });
 
-        spawn("npm", ["run", "start", "--", "--dev"], {
-          stdio: ["ignore", "inherit", "inherit"],
-          shell: true,
-        });
-      }
+      process.on("SIGTERM", toExit);
+      process.on("exit", toExit);
     },
   };
 }
