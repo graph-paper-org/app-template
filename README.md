@@ -2,6 +2,10 @@ A template for new [graph-paper](https://github.com/graph-paper-org/graph-paper)
 apps. Svelte and graph-paper are already configured, along with Storybook, Jest,
 ESLint, Prettier, CircleCI, and more.
 
+If you're not interested in graph-paper, this template could alternatively be
+used as a generic Svelte template with more features than
+[sveltejs/template](https://github.com/sveltejs/template).
+
 Run the following to create a new project based on this template:
 
 ```
