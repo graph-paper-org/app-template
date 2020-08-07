@@ -7,7 +7,7 @@
     "dev": "rollup --config --watch",
     "format": "prettier --plugin-search-dir=. --write .",
     "format:check": "prettier --plugin-search-dir=. --check .",
-    "lint": "eslint --ext .js,.svelte .",
+    "lint": "eslint .",
     "start": "sirv public",
     "storybook": "start-storybook --static-dir ./public -p 6006",
     "test": "npm-run-all format:check lint test:jest",
