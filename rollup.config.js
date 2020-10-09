@@ -3,6 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import postcss from "rollup-plugin-postcss";
+import sveltePreprocess from "svelte-preprocess";
 import { terser } from "rollup-plugin-terser";
 import { spawn } from "child_process";
 
@@ -40,6 +41,7 @@ export default {
   plugins: [
     postcss(),
     svelte({
+      preprocess: sveltePreprocess({ postcss: true }),
       // enable run-time checks when not in production
       dev: !production,
       // we'll extract any component CSS out into
