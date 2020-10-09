@@ -1,7 +1,8 @@
 <script>
   import { DataGraphic } from "@graph-paper/datagraphic";
   import { Line } from "@graph-paper/elements";
-  import { MarginText, LeftAxis, BottomAxis } from "@graph-paper/guides";
+  import { LeftAxis, BottomAxis } from "@graph-paper/guides";
+
   export let points = 100;
   export let size = 1;
   export let curve = "curveMonotoneX";
