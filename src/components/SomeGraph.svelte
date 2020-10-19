@@ -4,9 +4,6 @@
   import { LeftAxis, BottomAxis } from "@graph-paper/guides";
 
   export let points = 100;
-  export let size = 1;
-  export let curve = "curveMonotoneX";
-  export let dashArray = "1,0";
 
   let y = 100;
 
@@ -19,5 +16,5 @@
 <DataGraphic>
   <LeftAxis />
   <BottomAxis />
-  <Line {curve} {data} {size} {dashArray} />
+  <Line {data} />
 </DataGraphic>
