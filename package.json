@@ -49,6 +49,6 @@
     "svelte-loader": "2.13.6"
   },
   "dependencies": {
-    "sirv-cli": "1.0.6"
+    "sirv-cli": "1.0.10"
   }
 }
