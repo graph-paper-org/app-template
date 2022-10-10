@@ -21,7 +21,7 @@
     "@graph-paper/datagraphic": "0.0.0-alpha.15",
     "@graph-paper/elements": "0.0.0-alpha.15",
     "@graph-paper/guides": "0.0.0-alpha.15",
-    "@rollup/plugin-commonjs": "15.1.0",
+    "@rollup/plugin-commonjs": "23.0.0",
     "@rollup/plugin-node-resolve": "9.0.0",
     "@storybook/addon-knobs": "6.0.26",
     "@storybook/addon-storysource": "6.0.26",
